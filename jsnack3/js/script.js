@@ -13,7 +13,7 @@ for (let i = 0; i < 10; i++) {
     let userResult = parseInt(prompt("inserisci un numero"));
     console.log(userResult);
     // aggiungo il valore della variabile userNumber alla variabile result
-    result += userResult;
+    result += userResult; //si può scrivere anche result = userResult + result
 }
 
 // stampo la somma dei numeri inseriti dall'utente
